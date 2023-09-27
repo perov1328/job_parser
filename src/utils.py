@@ -1,6 +1,6 @@
 
-from src.headhunter import HeadHunterAPI
-from src.superjob import SuperJobAPI
+from src.headhunter import *
+from src.superjob import *
 from src.saver import *
 
 def get_a_site():
@@ -178,3 +178,75 @@ def search_by_criterion():
         for vacancy in matched:
             print(vacancy)
             print("=" * 50)
+
+def saving_format(filename: str, data: list):
+    """
+    Выбор пользователя в каком формате будет сохранен список вакансий
+    """
+    vacancies_list = []
+    for el in data:
+        vacancies_list.append(el.to_dict())
+
+    while True:
+        user_answer = input("""Выберите в каком формате необходимо сохранить список вакансий:
+        1. json
+        2. csv
+        3. xls
+        4. txt
+        5. Не сохранять
+        Ответ: """)
+
+        match user_answer:
+
+            case '1':
+                json_file = JSONSaver(filename + '.json', vacancies_list)
+                json_file.save_to_file()
+                break
+            case '2':
+                csv_file = CSVSaver(filename + '.csv', vacancies_list)
+                csv_file.save_to_file()
+                break
+            case '3':
+                xls_file = ExcelSaver(filename + '.xlc', vacancies_list)
+                xls_file.save_to_file()
+                break
+            case '4':
+                txt_file = TxtSaver(filename + '.txt', vacancies_list)
+                txt_file.save_to_file()
+                break
+            case '5':
+                return None
+            case _:
+                print("Введите номер необходимого формата.")
+
+
+
+def search_vacancies():
+    # Получение начальных вводных для работы программы
+    site = get_a_site()
+    keyword = get_a_keyword()
+    city = get_a_city()
+    experience = get_experience()
+    count_vacancies = get_count_vacancies()
+    sort_option = get_sort_option()
+
+    # Обработка города в зависимости от выбранного сайта
+    if isinstance(site, HeadHunterAPI):
+        city = HHController.get_city_id(city)
+    elif isinstance(site, SuperJobAPI):
+        city = SJController.validate_city(city)
+
+    # Обработка параметра запроса в зависимости от выбранного сайта
+    if isinstance(site, HeadHunterAPI):
+        sort_option = HHController.order_by(sort_option)
+    elif isinstance(site, SuperJobAPI):
+        sort_option = SJController.order_field(sort_option)
+
+    # Отправка запроса к сайту с выбранными параметрами запроса
+    if isinstance(site, HeadHunterAPI):
+        response = site.get_vacancies(keyword, city, experience, count_vacancies, sort_option)
+    elif isinstance(site, SuperJobAPI):
+        response = site.get_vacancies(keyword, city, experience, count_vacancies, sort_option)
+
+    # Выбор формата для сохранения списка вакансий
+    saving_format('vacancies', response)
