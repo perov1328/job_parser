@@ -1,0 +1,110 @@
+Id: 86846739
+Vacancy Name: Начинающий Web-Дизайнер
+Company Name: Веста-К
+Description: Знание Figma. Знание графических редакторов, таких как Adobe Photoshop, CorelDraw и т..д. Умение находить и обрабатывать найденную информацию. 
+Salary From: 25000.0
+Salary To: 35000.0
+Salary Currency: RUR
+Area: Ростов-на-Дону
+URL: https://hh.ru/vacancy/86846739
+
+Id: 77959077
+Vacancy Name: Менеджер по сохранению клиентов
+Company Name: Ростелеком
+Description: Вы готовы учиться новому и постоянно развиваться. Являетесь уверенным пользователем ПК. Обладаете грамотной речью. Только начинаете свой карьерный путь или...
+Salary From: 0
+Salary To: 0
+Salary Currency: Данные отсутствуют
+Area: Пермь
+URL: https://hh.ru/vacancy/77959077
+
+Id: 87135968
+Vacancy Name: Начинающий full-stack веб-разработчик
+Company Name: Техновизор
+Description: Закончили, или заканчиваете ВУЗ по какой-либо it-специальности. Знакомы с Linux. Умеете работать с командной строкой. И с Docker.
+Salary From: 40000.0
+Salary To: None
+Salary Currency: RUR
+Area: Екатеринбург
+URL: https://hh.ru/vacancy/87135968
+
+Id: 86590469
+Vacancy Name: Специалист по локализации
+Company Name: Palex Group
+Description: Техническое образование, аналитический склад ума. Продвинутый пользователь программ пакета MS Office (Word, Excel, PowerPoint, Visio). Навыки работы с мультимедиа (изображения...
+Salary From: 25000.0
+Salary To: None
+Salary Currency: RUR
+Area: Новосибирск
+URL: https://hh.ru/vacancy/86590469
+
+Id: 87397360
+Vacancy Name: Junior ML Engineer for Speech Processing (TTS, VAD, SpeakerRecognition)
+Company Name: KVINT
+Description: Отличные знания <highlighttext>python</highlighttext>, pytorch, numpy, docker. Желание развиваться в области обработки речи. Уверенные знания Computer Science, ML, DL. 
+Salary From: 0
+Salary To: 0
+Salary Currency: Данные отсутствуют
+Area: Москва
+URL: https://hh.ru/vacancy/87397360
+
+Id: 86421105
+Vacancy Name: Анатитик данных (Дата-инженер)
+Company Name: Сеть магазинов цифровой и бытовой техники DNS
+Description: Знание языков программирования: обязательно <highlighttext>Python</highlighttext>, желательно JavaScript и другие. Желателен опыт в разработке и поддержание инфраструктуры для обработки данных. 
+Salary From: 65000.0
+Salary To: None
+Salary Currency: RUR
+Area: Красноярск
+URL: https://hh.ru/vacancy/86421105
+
+Id: 86018951
+Vacancy Name: Начинающий IT-специалист
+Company Name: Группа Илим
+Description: Хорошее знание любого языка программирования, например: JS, c#, <highlighttext>python</highlighttext>, powershell, др.. Отличные базисные знания протоколов и сетей TCP/IP. 
+Salary From: 0
+Salary To: 0
+Salary Currency: Данные отсутствуют
+Area: Санкт-Петербург
+URL: https://hh.ru/vacancy/86018951
+
+Id: 87393140
+Vacancy Name: Data engineer
+Company Name: СИНЕРГИЯ
+Description: Хорошее знание <highlighttext>Python</highlighttext>, умение писать поддерживаемый код. Flash / Fast API. Git, Bash, Airflow, Docker. SQL на экспертном уровне (умение оптимизировать...
+Salary From: 0
+Salary To: 0
+Salary Currency: Данные отсутствуют
+Area: Москва
+URL: https://hh.ru/vacancy/87393140
+
+Id: 86832484
+Vacancy Name: PHP full stack разработчик — junior/middle
+Company Name: Маркетинговые Решения
+Description: Знание ЯП PHP 7.4, 8.x, <highlighttext>Python</highlighttext> 3.10+ на хорошем уровне, умение пользоваться отладчиком. Знания React/NextJS...
+Salary From: 0
+Salary To: 0
+Salary Currency: Данные отсутствуют
+Area: Москва
+URL: https://hh.ru/vacancy/86832484
+
+Id: 74932495
+Vacancy Name: Оператор call-центра
+Company Name: Ростелеком
+Description: Вы готовы учиться новому и постоянно развиваться. Являетесь уверенным пользователем ПК. Обладаете грамотной речью. Только начинаете свой карьерный путь или...
+Salary From: 0
+Salary To: 0
+Salary Currency: Данные отсутствуют
+Area: Пермь
+URL: https://hh.ru/vacancy/74932495
+
+Id: 74289000
+Vacancy Name: Оператор call-центра
+Company Name: Ростелеком
+Description: Вы готовы учиться новому и постоянно развиваться. Являетесь уверенным пользователем ПК. Обладаете грамотной речью. Только начинаете свой карьерный путь или...
+Salary From: 0
+Salary To: 0
+Salary Currency: Данные отсутствуют
+Area: Пермь
+URL: https://hh.ru/vacancy/74289000
+
