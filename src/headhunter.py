@@ -95,12 +95,3 @@ class HHController:
                             return reg["id"]
                 elif country["name"] == city:
                     return country["id"]
-
-test = HeadHunterAPI()
-keyword = 'python'
-city = None
-experience = 'between1And3'
-count_vacancies = None
-sort_option = None
-
-print(test.get_vacancies(keyword, city, experience, count_vacancies, sort_option))
