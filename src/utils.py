@@ -2,6 +2,7 @@
 from src.headhunter import *
 from src.superjob import *
 from src.saver import *
+from src.utilsDB import *
 
 def get_a_site():
     """
@@ -193,7 +194,8 @@ def saving_format(filename: str, data: list):
         2. csv
         3. xls
         4. txt
-        5. Не сохранять
+        5. в БД
+        6. Не сохранять
         Ответ: """)
 
         match user_answer:
@@ -215,6 +217,10 @@ def saving_format(filename: str, data: list):
                 txt_file.save_to_file()
                 break
             case '5':
+                params = config('database.ini', 'postgresql')
+                save_to_database(vacancies_list, 'postgres', params)
+                break
+            case '6':
                 return None
             case _:
                 print("Введите номер необходимого формата.")
